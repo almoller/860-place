@@ -1,0 +1,39 @@
+.main {
+    height: 100%;
+    background-image: url("images/living-room-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#logo {
+    width: 300px;
+}
+
+.main-jumbotron {
+    background-color: transparent;
+}
+.main-text {
+    /*background-color: rgba(62, 57, 53, 0.4);*/
+    background-color: rgba(255, 255, 255, .85);
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+ 
+}
+
+.apply-button {
+    background-color: #2F86AD;
+    border: 1px solid #2F86AD;
+}
+
+.apply-button:hover {
+    background-color: rgb(62, 57, 53);
+    border-color: rgb(62, 57, 53);
+}
+
+hr.divider {
+    background: #2F86AD;
+}
