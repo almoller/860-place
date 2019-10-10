@@ -37,3 +37,26 @@
 hr.divider {
     background: #2F86AD;
 }
+
+.hours-divide {
+    color: #2F86AD;
+    font-size: 16pt;
+}
+
+h2 {
+    color: #2F86AD;
+    margin: 30px 0 20px 0;
+}
+
+h3 {
+    color: gray;
+}
+
+.come-see {
+    height: 400px;
+    background-image: url("images/860-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
