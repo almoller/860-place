@@ -29,11 +29,6 @@
     border: 1px solid #2F86AD;
 }
 
-.apply-button:hover {
-    background-color: rgb(62, 57, 53);
-    border-color: rgb(62, 57, 53);
-}
-
 hr.divider {
     background: #2F86AD;
 }
@@ -60,3 +55,26 @@ h3 {
     background-size: cover;
     position: relative;
 }
+
+.features-row {
+    background-image: url("images/master-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#features-card {
+    background-color: rgba(255, 255, 255, .85);
+}
+
+.features-card-item {
+    background: transparent;
+}
+
+.features-card-item button {
+    background-color: #2F86AD;
+    border: 1px solid #2F86AD;
+}
+
+
