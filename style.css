@@ -1,3 +1,7 @@
+body {
+    margin-bottom: 0;
+}
+
 .main {
     height: 100%;
     background-image: url("images/2-living-room.jpg");
@@ -85,11 +89,19 @@ h3 {
     border: 1px solid #2F86AD;
 }
 
-.floor-plan-modal {
-    /*height: 195px;
-    width: 113px;
-    background-image: url("images/860-floor-plans/floor-plan-L2.png");
-    background-size: contain;
-    background-repeat: no-repeat;*/
+#floor-plan-image {
+    width: 125px;
 }
 
+#gallery-image {
+    width: 275px;
+    margin-top: 5px;
+}
+
+footer img {
+    margin-bottom: 10px;
+}
+
+footer a {
+    margin-top: 20px;
+}

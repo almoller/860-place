@@ -37,11 +37,11 @@
       <div class="container-fluid">
 
         <div class="row gallery-row">
-          <div class="col-md-2"></div>
+          <div class="col-lg-2"></div>
           
           <!------PHOTO GALLERY MODAL------>
 
-          <div class="col-md-4">
+          <div class="col-lg-4">
               <div class="card text-center my-4 border-0 gallery-card">
                   <div class="card-body">
                     <h5 class="card-title text-center">Great Images</h5>
@@ -50,8 +50,8 @@
 
                     <!-- BUTTON TO TRIGGER MODAL/CAROUSEL -->
 
-                    <button type="button" class="btn border-0 floor-plan-modal" data-toggle="modal" data-target="#exampleModalCenter1">
-                      <img src="images/1-living-room.jpg" height="200px">
+                    <button type="button" class="btn border-0" data-toggle="modal" data-target="#exampleModalCenter1">
+                      <img src="images/1-living-room.jpg" id="gallery-image">
                     </button>
 
                     <!-- MODAL BEGIN -->
@@ -285,7 +285,7 @@
           
           <!------FLOOR PLANS GALLERY MODAL------>
 
-          <div class="col-md-4">
+          <div class="col-lg-4">
               <div class="card text-center my-4 border-0 gallery-card">
                   <div class="card-body">
                     <h5 class="card-title">Spacious Floor Plans</h5>
@@ -294,8 +294,8 @@
 
                       <!-- BUTTON TO TRIGGER MODAL/CAROUSEL -->
 
-                      <button type="button" class="btn border-0 floor-plan-modal" data-toggle="modal" data-target="#exampleModalCenter">
-                        <img src="images/860-floor-plans/floor-plan-L2.png" height="200px">
+                      <button type="button" class="btn border-0" data-toggle="modal" data-target="#exampleModalCenter">
+                        <img src="images/860-floor-plans/floor-plan-L2.png" id="floor-plan-image">
                       </button>
 
                       <!-- MODAL BEGIN -->
@@ -379,17 +379,17 @@
               </div>
           </div>
           
-          <div class="col-md-2"></div>
+          <div class="col-lg-2"></div>
         </div>
 
 
   <!------INFORMATION COLLAPSIBLE SECTIONS------>      
 
 
-        <div class="row features-row">
+        <div class="row features-row py-5">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-                <div class="card my-4 border-0 text-center" id="features-card">
+                <div class="card py-4 border-0 text-center" id="features-card">
                     <div class="card-body">
                       <h5 class="card-title">Amazing features</h5>
                       <p class="card-text"> Located minutes from the 500 East I-15 exit in American Fork - 860 Place is the perfect combination of convenience and luxury.</p>
@@ -507,7 +507,7 @@
 
       </div>
 
-
+  <!------END COLLAPSIBLE SECTIONS------>
 
       
 
@@ -530,9 +530,19 @@
       </div>
 
 
-      <footer class="bg-dark text-center">
-        <img src="images/logo-wht-01.png" height="50px">
-        <p class="text-light">Contact </p>
+      <footer class="bg-dark text-center text-light py-4">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="images/logo-wht-01.png" height="100px">
+          </div>
+          <div class="col-sm-4">
+            <h4>Contact</h4>
+            <p>Brandee.Chatwin@gmail.com <span class="hours-divide">|</span> 801.850.1270</p>
+          </div>
+          <div class="col-sm-4">
+            <a class="btn btn-secondary btn-lg apply-button" href="http://www.maplepointmanagement.com" role="button">Apply Now</a>
+          </div>
+        </div>       
       </footer>
     
 
