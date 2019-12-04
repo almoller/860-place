@@ -1,7 +1,3 @@
-body {
-   
-}
-
 .main {
     height: 100%;
     background-image: url("images/2-living-room.jpg");
@@ -57,13 +53,15 @@ h3 {
     color: gray;
 }
 
-.come-see {
+.map-section {
     height: 400px;
-    background-image: url("images/860-1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("images/cross_scratches.png");
+}
+
+#map {
+    width: 350px;
     position: relative;
+    top: 65px;    
 }
 
 h5 {
