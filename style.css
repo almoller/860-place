@@ -14,6 +14,8 @@
 .main-jumbotron {
     background-color: transparent;
 }
+
+
 .main-text {
     /*background-color: rgba(62, 57, 53, 0.4);*/
     background-color: rgba(255, 255, 255, .85);
@@ -37,6 +39,23 @@
 
 hr.divider {
     background: #A80504;
+}
+
+#videoSection {
+    height: 450px;
+    background-image: url("images/cross_scratches.png");
+}
+
+#Video {
+    position: relative;
+    padding-top: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+#content-over-video {
+    position: relative;
+    top: -150px;
 }
 
 .hours-divide {
