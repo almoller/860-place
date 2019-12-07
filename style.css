@@ -129,8 +129,8 @@ h5 {
     width: 125px;
 }
 
-#gallery-image {
-    width: 325px;
+.gallery-image {
+    width: 400px;
     margin-top: 5px;
 }
 
