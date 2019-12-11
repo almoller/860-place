@@ -94,6 +94,12 @@ h5 {
 .gallery-card {
     background: transparent;
 }
+
+.gallery-image {
+    width: 400px;
+    margin-top: 5px;
+}
+
 .images-card {
     width: 400px;
     margin: 0 auto;
@@ -131,11 +137,6 @@ h5 {
 
 #floor-plan-image {
     width: 125px;
-}
-
-.gallery-image {
-    width: 100%;
-    margin-top: 5px;
 }
 
 footer {
