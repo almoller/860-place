@@ -49,6 +49,8 @@ hr.divider {
 #Video {
     position: relative;
     padding-top: 50px;
+    padding-right: 75px;
+    padding-left: 75px;
     height: 100%;
     width: 100%;
 }
@@ -78,9 +80,8 @@ h3 {
 }
 
 #map {
-    width: 350px;
-    position: relative;
-    top: 65px;    
+    margin-top: 60px;
+    width: 350px;   
 }
 
 h5 {
