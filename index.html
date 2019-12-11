@@ -35,10 +35,15 @@
 
 
   <div id="videoSection">
-    <video autoplay muted loop controls id="Video" style="padding: 50px 100px">
+    <video autoplay muted loop controls id="Video" style="position: relative;
+    padding-top: 50px;
+    padding-right: 75px;
+    padding-left: 75px;
+    height: 100%;
+    width: 100%;">
       <source src="images/860Place_Video.mp4" type="video/mp4">
     </video>
-    <div id="content-over-video" class="text-center">
+    <div id="content-over-video" class="text-center" style="position: relative; top:-150px;">
       <img src="images/logo-wht-01.png" width="125px">
 
     </div>
@@ -632,7 +637,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-6 text-center map-section">
-        <img src="images/860Place_Map.png" width="350px" height="263px" id="map">
+        <img src="images/860Place_Map.png" width="350px" height="263px" style="margin-top: 60px;" id="map">
       </div>
       <div class="col-md-6 text-center">
         <h2>Come check out our model home!</h2>
