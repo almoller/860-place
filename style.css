@@ -49,15 +49,13 @@ hr.divider {
 #Video {
     position: relative;
     padding-top: 50px;
-    padding-right: 75px;
-    padding-left: 75px;
     height: 100%;
     width: 100%;
 }
 
 #content-over-video {
     position: relative;
-    top: -150px;
+    top: -200px;
 }
 
 .hours-divide {
