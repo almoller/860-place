@@ -135,7 +135,16 @@ h5 {
 }
 
 #floor-plan-image {
-    width: 125px;
+    width: 225px;
+}
+
+.FloorPlanHover:hover {
+    color: #A80504;
+    text-decoration: underline;
+}
+
+.FloorPlanLabels {
+    font-weight: 700;
 }
 
 footer {
