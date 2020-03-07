@@ -1,3 +1,7 @@
+body {
+    background-image: url("images/cross_scratches.png");
+}
+
 .main {
     height: 100%;
     background-image: url("images/2-living-room.jpg");
@@ -9,6 +13,10 @@
 
 #logo {
     width: 300px;
+}
+
+#logo_mapPage {
+    width: 225px;
 }
 
 .main-jumbotron {
@@ -63,6 +71,10 @@ hr.divider {
     font-size: 16pt;
 }
 
+h1 {
+    margin-top: 25px;
+}
+
 h2 {
     color: #A80504;
     margin: 30px 0 20px 0;
@@ -73,13 +85,23 @@ h3 {
 }
 
 .map-section {
-    height: 400px;
+    height: 100%;
     background-image: url("images/cross_scratches.png");
+}
+
+.map-section p {
+    margin: 25px 15px;
+    padding-left: 60px;
+    width: 80%;
 }
 
 #map {
     margin-top: 60px;
     width: 350px;   
+}
+
+#h2-CheckUsOut {
+    margin-top: 60px;
 }
 
 h5 {
@@ -152,10 +174,40 @@ footer {
     padding-left: 15px;
 }
 
+#email {
+    color: white;
+}
+
+#email:hover {
+    text-decoration-color: #A80504;
+}
+
 footer img {
     margin-bottom: 10px;
 }
 
 footer a {
     margin-top: 20px;
+}
+
+/* COMMUNITY MAP PAGE */
+#back {
+    
+    color: black;
+}
+#back p {
+    margin-bottom: 0;
+}
+#back:hover {
+    color: #A80504;
+}
+
+/* PET GUIDELINE PAGE */
+.breeds li {
+    list-style: none;
+    font-weight: bold;
+}
+.emphasis {
+    font-style: oblique;
+    font-weight: 700;
 }
