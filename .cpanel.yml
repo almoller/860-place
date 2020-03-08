@@ -1,0 +1,9 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home2/eigsixz6/public_html/
+ - /bin/cp index.html $DEPLOYPATH
+ - /bin/cp community_map.html $DEPLOYPATH
+ - /bin/cp pet_guidelines.html $DEPLOYPATH
+ - /bin/cp style.css $DEPLOYPATH
+ - /bin/cp -R images $DEPLOYPATH
