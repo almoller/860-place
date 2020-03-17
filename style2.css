@@ -19,6 +19,15 @@ body {
     width: 225px;
 }
 
+#logo_NavBar {
+    width: 125px;
+    margin: 0 20px;
+}
+
+.navbar, footer {
+    background-image: url("images/brushed_alu_dark.png");
+}
+
 .main-jumbotron {
     background-color: transparent;
 }
