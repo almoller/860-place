@@ -5,5 +5,8 @@ deployment:
  - /bin/cp index.html $DEPLOYPATH
  - /bin/cp community_map.html $DEPLOYPATH
  - /bin/cp pet_guidelines.html $DEPLOYPATH
- - /bin/cp style.css $DEPLOYPATH
+ - /bin/cp events.html $DEPLOYPATH
+ - /bin/cp interior_photos.html $DEPLOYPATH
+ - /bin/cp exterior_photos.html $DEPLOYPATH
+ - /bin/cp style2.css $DEPLOYPATH
  - /bin/cp -R images $DEPLOYPATH
