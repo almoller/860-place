@@ -34,13 +34,11 @@ body {
 
 
 .main-text {
-    /*background-color: rgba(62, 57, 53, 0.4);*/
     background-color: rgba(255, 255, 255, .85);
     padding: 20px;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 10px;
- 
 }
 
 .apply-button {
@@ -106,7 +104,7 @@ h3 {
 
 #map {
     margin-top: 60px;
-    width: 350px;   
+    width: 90%;   
 }
 
 #h2-CheckUsOut {
